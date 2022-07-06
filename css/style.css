@@ -6,7 +6,7 @@
 }
 .top-section {
   background-image: linear-gradient(transparent, #000000e0),
-    url(../images/donation6.jpg);
+    url(../images/donation5.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   height: 670px;
@@ -39,6 +39,7 @@
   padding: 12px 16px;
   border-radius: 5px;
   color: #ffffff;
+  cursor: pointer;
 }
 .amount-wrapper {
   display: block;
@@ -52,13 +53,14 @@
 .amount-wrapper h2 {
   font-size: 40px;
   margin-bottom: 20px;
+  font-weight: 700;
 }
 
-p#donate-text2 {
+.donate-text2 {
   padding: 0px 85px;
   color: #707070;
 }
-ul.donate-amount {
+.donate-amount {
   display: flex;
   list-style: none;
 }
@@ -89,9 +91,104 @@ ul.donate-amount a {
   overflow: hidden;
   margin: auto;
   width: 100%;
-  color: #b3b3b3;
   height: 35px;
   text-align: center;
   font-size: 14px;
   margin: 20px 0px;
+}
+
+.donate-plan {
+  display: flex;
+  justify-content: center;
+}
+
+.donate-plan-wrapper {
+  background-color: #ececec;
+  width: 300px;
+  margin: 15px;
+  padding: 35px;
+  border-radius: 5px;
+}
+.donate-plan-wrapper h6 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.donate-plan-wrapper p {
+  color: #707070;
+}
+.donate-plan-wrapper h6 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.donate-plan-wrapper p {
+  color: #707070;
+  margin-top: 20px;
+  line-height: 1.3;
+  font-size: 18px;
+  padding-right: 25px;
+}
+
+.donate-plan-wrapper i {
+  font-size: 50px;
+  margin-top: 25px;
+}
+#donate-plan-item1 {
+  background-color: #4f9da633;
+}
+#donate-plan-item2 {
+  background-color: #ff595947;
+}
+#donate-plan-item3 {
+  background-color: #fff4d6e8;
+}
+.subscribe-item {
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+}
+
+.subscribe-wrapper {
+  display: block;
+  width: 800px;
+  margin: auto;
+  height: 200px;
+  background-color: #fff4d6;
+}
+
+.subscribe-item input {
+  height: 48px;
+  padding: 0 10px;
+  border: none;
+  width: 275px;
+  background-color: #d9d9d9;
+  font-size: 16px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.subscribe-item button {
+  height: 48px;
+  padding: 0 10px;
+  background-color: #ff5959;
+  border: none;
+  color: #ffffff;
+  width: 150px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0px 5px 5px 0px;
+}
+#footer-wrap {
+  background-color: black;
+  width: 100%;
+  padding: 60px 0px;
+}
+
+#footer-wrap h2 {
+  color: #ff5959;
+}
+
+#footer-wrap span {
+  color: #d9dbe1;
 }
