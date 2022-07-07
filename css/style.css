@@ -67,11 +67,12 @@
 
 ul.donate-amount li {
   padding: 30px 22px;
-  margin: 17px;
+  margin: 16px;
   background-color: #fafafa;
   font-size: 25px;
   font-weight: 700;
   border-radius: 5px;
+  border: 1px solid #ddd;
 }
 ul.donate-amount a {
   text-decoration: none;
@@ -103,11 +104,11 @@ ul.donate-amount a {
 }
 
 .donate-plan-wrapper {
-  background-color: #ececec;
   width: 300px;
   margin: 15px;
   padding: 35px;
   border-radius: 5px;
+  box-shadow: 6px 6px 10px 5px #ddd;
 }
 .donate-plan-wrapper h6 {
   font-size: 25px;
@@ -200,34 +201,53 @@ ul.donate-amount a {
 
 .join-wrap {
   width: 20%;
-  background-color: #ddd;
   margin-right: 30px;
   border-radius: 10px;
   padding: 30px 20px;
+  box-shadow: 6px 6px 5px 5px #ddd;
+  color: #ffffff;
 }
-#join-wrap-imag {
+#join-wrap-img1 {
+  background-image: linear-gradient(#00000000, #0f0f0fc2),
+    url(../images/donation1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#join-wrap-img2 {
   background-image: linear-gradient(#00000000, #0f0f0fc2),
     url(../images/donation10.jpg);
   background-repeat: no-repeat;
-  padding-top: 126px;
   background-size: cover;
 }
+
+#join-wrap-img3 {
+  background-image: linear-gradient(#00000000, #0f0f0fc2),
+    url(../images/donation4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#join-wrap-img4 {
+  background-image: linear-gradient(#00000000, #0f0f0fc2),
+    url(../images/donation3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .join-wrap h6 {
   font-size: 20px;
 }
 
 .join-wrap p {
-  color: #707070;
+  color: #dadada;
   font-size: 13px;
   line-height: 1.4;
   margin: 20px 0;
 }
-#join-wrap-imag h6 {
-  color: #ffffff;
-  padding-bottom: 40px;
-}
+
 .join-wrap i {
   font-size: 40px;
   margin: 10px 0px;
-  color: #0b9f0b;
+  color: #ffffff;
 }
